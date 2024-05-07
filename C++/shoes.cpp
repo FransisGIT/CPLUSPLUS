@@ -64,3 +64,70 @@ int main()
 
     return 0;
 }
+
+// #include <iostream>
+// using namespace std;
+
+// class Mobil
+// {
+// public:
+//     string merk, model;
+//     int harga;
+
+//     // fungsi untuk menghitung jumlah diskon yang ada
+//     void diskonHarga(float diskon)
+//     {
+//         harga = harga - (harga * diskon);
+//     }
+
+//     // menampilkan data yang telah di buat
+//     void show_data()
+//     {
+//         // menampilkan data merk
+//         cout << "Merk: " << merk << endl;
+//         // menampilkan data model
+//         cout << "Model: " << model << endl;
+//         // menampilkan data harga
+//         cout << "Harga: " << harga << endl;
+//     }
+// };
+
+// int main()
+// {
+//     // membuat data static atau data yang sudah di buat oleh programmernya
+//     cout << "====================" << endl;
+//     cout << "Data Static" << endl;
+//     Mobil mobilku;
+
+//     mobilku.merk = "Toyota";
+//     mobilku.model = "Camry";
+//     mobilku.harga = 500000000;
+//     // membawa object yang berisi 0.15 atau 15% ke dalam fungsi diskonHarga()
+//     mobilku.diskonHarga(0.15);
+//     // memanggil fungsi show_data() untuk menampilkan data
+//     mobilku.show_data();
+//     cout << "====================" << endl;
+//     cout << endl;
+
+//     // membuat data dynamic atau data yang dapat berubah ubah valuenya ketika user menginput
+//     cout << "====================" << endl;
+//     cout << "Data Dynamic" << endl;
+//     Mobil mobilInput;
+
+//     cout << "Masukkan nama merk: ";
+//     cin >> mobilInput.merk;
+
+//     cout << "Masukkan jenis model: ";
+//     cin >> mobilInput.model;
+
+//     cout << "Masukkan harga mobil: ";
+//     cin >> mobilInput.harga;
+
+//     // membawa object yang berisi 0.10 atau 10% ke dalam fungsi diskonHarga()
+//     mobilInput.diskonHarga(0.10);
+//     // memanggil fungsi show_data() untuk menampilkan data yang telah di input
+//     mobilInput.show_data();
+//     cout << "====================" << endl;
+
+//     return 0;
+// }
