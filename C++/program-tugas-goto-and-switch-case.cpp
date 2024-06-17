@@ -4,7 +4,6 @@ using namespace std;
 int main()
 {
     char loop;
-    char loop1;
     int umur;
 
 input_umur:
@@ -67,7 +66,7 @@ input_umur:
     cin >> loop;
     system("cls");
 
-    if (loop == 'Y' || loop == 'y' || loop1 == 'yes')
+    if (loop == 'Y' || loop == 'y')
     {
         goto input_umur; // Kembali ke label input_umur jika pengguna ingin memasukkan umur lagi
     }
