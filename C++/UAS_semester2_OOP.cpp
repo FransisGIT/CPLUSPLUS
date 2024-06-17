@@ -45,12 +45,9 @@ int main()
         data_mahasiswa1.status_menikah = "Belum Menikah";
         data_mahasiswa1.agama = "Kristen";
 
-        cout
-            << "=========================================================================" << endl;
-        cout
-            << "======================== \e[1;31m UAS OOP C++ Semester 2 \e[m =======================" << endl;
-        cout
-            << "=========================================================================" << endl;
+        cout << "=========================================================================" << endl;
+        cout << "======================== \e[1;31m UAS OOP C++ Semester 2 \e[m =======================" << endl;
+        cout << "=========================================================================" << endl;
         cout << "\tNim\t\t\t: " << "\e[1;32m" << data_mahasiswa1.nim << "\e[0m" << endl;
         cout << "\tNama Mahasiswa\t\t: " << "\e[1;32m" << data_mahasiswa1.nama << "\e[0m" << endl;
         cout << "\tProdi\t\t\t: " << "\e[1;32m" << data_mahasiswa1.prodi << "\e[0m" << endl;
