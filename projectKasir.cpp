@@ -28,6 +28,7 @@ int main()
         cout << "Jumlah barang tidak valid!" << endl;
         return 0;
     }
+
     for (int i = 0; i < jumlahTotalBarang; i++)
     {
         cout << "Barang ke-" << i + 1 << endl;
