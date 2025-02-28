@@ -1,6 +1,3 @@
-
-<h1> MY C++ COLLEGE ASSIGNMENT </h1>
-
 <p align="center">
   <img src="c++-logo.png" width="350" alt="accessibility text">
 </p>
